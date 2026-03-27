@@ -124,6 +124,7 @@ def interactive_mode():
         'name': playlist_name,
         'author': playlist_author,
         'online': use_online,
+        'local': not use_online,
         'image': image_path if image_path else None,
         'output_dir': output_dir,
         'verbose': verbose,
